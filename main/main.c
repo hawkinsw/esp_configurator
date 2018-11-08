@@ -29,8 +29,8 @@ SemaphoreHandle_t g_xaccess_points;
  * users can associate to configure.
  */
 wifi_config_t g_default_ap_config = { .ap = {
-  .ssid = "TestingESP",
-  .password = "No password.",
+  .ssid = "Configurator",
+  .password = "Configurator",
   .ssid_len = 0,
   .channel = 6,
   .authmode = WIFI_AUTH_WPA2_PSK,
